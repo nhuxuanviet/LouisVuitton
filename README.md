@@ -1,71 +1,68 @@
-# LouisVuitton Online Course Management System
+# LouisVuitton Clothing & Accessories Management System
+# Project Overview
+LouisVuitton is a web-based clothing and accessories sales platform developed using JSP and Servlet technologies. The system supports key functions such as product browsing, user registration, shopping cart management, order placement, and internal user role management (Admin, Manager, Customer). Designed for scalability and maintainability, it provides a structured solution for managing an online retail operation without online payment integration.
 
-## Project Overview
+# Key Features
+Customer Role:
+User registration and login, browsing product catalog (clothing, accessories), managing shopping cart, placing orders, and viewing order history.
 
-LouisVuitton is a robust online course management system developed using JSP and Servlet technologies. It facilitates seamless interactions among three primary user roles: Learners, Managers, and Admins. The system supports course enrollment, management, payment processing, and notification services, providing a comprehensive platform for online education.
+Manager Role:
+Manage product inventory (add/update/delete items), handle customer orders, and monitor order statuses.
 
-## Key Features
+Admin Role:
+System configuration, user role assignment, permission control, and high-level data overview.
 
-- **Learner Role**: User registration, authentication, course enrollment, progress tracking, and feedback submission.
-- **Manager Role**: Course creation, modification, deletion, learner management, and access to detailed reports and statistics.
-- **Admin Role**: System administration including user role management, permissions configuration, and overall system settings.
-- **Payment Integration**: Secure transaction processing and payment verification.
-- **Notification System**: Real-time notifications and alerts to users.
+Order Processing:
+Customers place orders and pay upon delivery (Cash on Delivery – COD); managers confirm and update order statuses manually.
 
-## Technology Stack
+Notification System:
+Basic in-app notifications for order updates, role actions, and product changes.
 
-- **Backend**: Java Servlet, JSP
-- **Web Server**: Apache Tomcat 
-- **Database**: MSSQL
-- **Build Tools**: Maven
-- **Frontend**: JSP, HTML, CSS, JavaScript
+# Technology Stack
+Backend: Java Servlet, JSP
 
-## Installation and Setup
+Web Server: Apache Tomcat
 
-### Prerequisites
+Database: Microsoft SQL Server
 
-- Java Development Kit (JDK) 8 or higher
-- Apache Tomcat server (version 9 or higher recommended)
-- Database server (MSSQL) installed and configured
-- Maven
+# Build Tools: Maven
 
-### Steps to Run
-Clone the repository
+Frontend: JSP, HTML, CSS, JavaScript
+
+# Installation and Setup
+Prerequisites
+Java Development Kit (JDK) 8 or higher
+
+Apache Tomcat (v9+)
+
+MSSQL Server
+
+Maven
+
+Setup Steps
 git clone https://github.com/nhuxuanviet/LouisVuitton.git
-
-Navigate to project directory
 cd LouisVuitton
-
-Configure database connection in the configuration file (e.g., context.xml or properties file)
-Build the project (if using Maven)
+# Configure database connection in context.xml or a properties file
 mvn clean package
-
-Deploy the generated WAR file to Apache Tomcat's webapps directory
-Start Apache Tomcat server
-Access the application via browser at:
+# Deploy WAR file to Apache Tomcat's webapps directory
+# Start Tomcat and access at:
 http://localhost:8080/LouisVuitton
+# Usage
+Customers can register, browse products, add items to cart, and place orders with cash-on-delivery (COD) option.
 
-## Usage
+Managers manage products, track customer orders, and handle order updates.
 
-- **Learners** can register, browse available courses, purchase courses, track their learning progress, and provide feedback.
-- **Managers** can create and manage courses, monitor learner activities, and generate reports.
-- **Admins** oversee system configurations, manage user roles and permissions, and maintain system integrity.
+Admins oversee system settings, manage users and roles, and maintain overall platform operations.
 
-## Contribution
+# Contribution
+Contributions are welcome! Fork the repo, create a feature branch, and submit a pull request with a clear description.
 
-Contributions are welcome! Please fork the repository, create a new branch for your feature or bugfix, and submit a pull request with a clear description of your changes.
+# License
+This project is licensed under the [Add your license here].
 
-## License
+# Contact
+Team Members: Nhu Xuan Viet, Pham Tuan Viet, Hoang Van Viet, Nguyen Manh Tung, Tra My
 
-This project is licensed under the [Specify License, e.g., MIT License]. See the LICENSE file for details.
+Email: nhuxuanviet27102004@gmail.com
 
-## Contact
-
-- **Author**: Nhu Xuan Viet , Pham Tuan Viet, Hoang Van Viet, Nguyen Manh Tung, Tra My
-- **Email**: nhuxuanviet27102004@gmail.com
-- **GitHub**: https://github.com/nhuxuanviet
-
----
-
-Thank you for your interest in the LouisVuitton Online Course Management System!
-
+GitHub: https://github.com/nhuxuanviet
